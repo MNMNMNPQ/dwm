@@ -58,7 +58,7 @@ yang的Arch的dwm文件
       ps：如果使用的是zsh，则编辑～/.zprofile，也可以不编辑～/.bash_profile，输完密码之后执行startx即可
       
       
-    ～/。pam——environment    
+    ～/.pam——environment    
     GTK_IM_MODULE DEFAULT=fcitx
     QT_IM_MODULE  DEFAULT=fcitx
     XMODIFIERS    DEFAULT=\@im=fcitx
@@ -66,4 +66,13 @@ yang的Arch的dwm文件
   
   使用的软件  
       
-      fcitx5、feh、chromium、slock、dwm、dmenu、st、openvpn、acpi
+      fcitx5-im、fcitx5-chinese-addons、feh、chromium、dwm、dmenu、st、openvpn、acpi、picom    
+      fcitx5-im和fcitx5-chinese-addons：中文输入法    
+      feh：看图、设置壁纸    
+      chromium：浏览器
+      dwm：窗口管理器
+      dmenu：软件启动器
+      st：终端模拟器
+      openvpn：上网
+      acpi：电量显示
+      picom：透明窗口
