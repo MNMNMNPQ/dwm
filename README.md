@@ -57,7 +57,7 @@ yang的Arch的dwm文件
   
   使用的软件  
       
-      fcitx5-im、fcitx5-rime、feh、chromium、dwm、dmenu、st、openvpn、acpi、picom、slstatus    
+      fcitx5-im、fcitx5-rime、feh、chromium、dwm、dmenu、st、openvpn、picom、slstatus    
       fcitx5-im和fcitx5-rime：中文输入法    
       feh：看图、设置壁纸    
       chromium：浏览器
@@ -65,6 +65,5 @@ yang的Arch的dwm文件
       dmenu：软件启动器
       st：终端模拟器
       openvpn：上网
-      acpi：电量显示
       picom：透明窗口
       slstatus：设置状态栏
