@@ -13,8 +13,8 @@ yang的Arch的dwm文件
   
 安装的字体：  
   
-    noto-fonts-cjk    
-      ps:不安装的话，中文无法正常显示
+    noto-fonts-cjk、fontawesome    
+      ps:noto-fonts-cjk：不安装的话，中文无法正常显示，fontawesome：字符字体
 
 需要编辑的文件：   
     
