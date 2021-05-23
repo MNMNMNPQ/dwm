@@ -22,16 +22,7 @@ yang的Arch的dwm文件
     ----    
     #语言设置
     export LANG=zh_CN.UTF-8    
-    export LANGUAGE=zh_CN:en_US
-
-    #dwm状态栏
-    while true
-    do
-    dianl=`acpi | cut -d" " -f4 | cut -d% -f1`
-    shij=`date +"%m/%d %H:%M"`
-    xsetroot -name "${shij}|${dianl}"
-    sleep 1
-    done &    
+    export LANGUAGE=zh_CN:en_US    
     
     #feh    
     ~/.fehbg &
@@ -66,8 +57,8 @@ yang的Arch的dwm文件
   
   使用的软件  
       
-      fcitx5-im、fcitx5-chinese-addons、feh、chromium、dwm、dmenu、st、openvpn、acpi、picom    
-      fcitx5-im和fcitx5-chinese-addons：中文输入法    
+      fcitx5-im、fcitx5-rime、feh、chromium、dwm、dmenu、st、openvpn、acpi、picom、slstatus    
+      fcitx5-im和fcitx5-rime：中文输入法    
       feh：看图、设置壁纸    
       chromium：浏览器
       dwm：窗口管理器
@@ -76,3 +67,4 @@ yang的Arch的dwm文件
       openvpn：上网
       acpi：电量显示
       picom：透明窗口
+      slstatus：设置状态栏
